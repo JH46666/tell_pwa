@@ -1,24 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="import" href="https://fonts.googleapis.com/css?family=Lato">
+  <style>
+    #body{
+      font-family: 'Lato',sans-serif;
+    }
+  
+  </style>
 </head>
+
 <body>
-    <script>
-        if('ser' in navigator){
-            
-        }    
-        
-        
-        
-    
-    
-    
-    
-    
-    </script>    
+  <h1>helloworld</h1>
+  <img src="/images/images.png" alt="" srcset="">
+  <script async src="/script/index.js"></script>
+  <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('/service-worker.js').then((registration)=>{
+        console.log('registration.scope;',registration.scope);
+        
+      }).catch(function(err){
+        console.log('注册失败 ',err)
+      })
+    }
+   
+  </script>
 </body>
+
 </html>
