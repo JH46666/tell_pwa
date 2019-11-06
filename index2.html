@@ -19,8 +19,11 @@
     
     </script>
     <script src="/index.js">
-      console.log('$', $)
-    
+      // console.log('$', $)
+      import {fetch as fetchPolyfill} from 'whatwg-fetch'
+
+      // window.fetch(...)   // use native browser version
+      // fetchPolyfill(...)  
     </script>
 </head>
 <body>

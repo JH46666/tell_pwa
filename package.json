@@ -1,0 +1,24 @@
+{
+  "name": "tell_pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JH46666/tell_pwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JH46666/tell_pwa/issues"
+  },
+  "homepage": "https://github.com/JH46666/tell_pwa#readme",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
